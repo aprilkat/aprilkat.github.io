@@ -1,0 +1,22 @@
+/*
+  Author:  April Bollinger
+  Date:    07/28/2020
+  Project: Online Bio
+*/
+
+header {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: black;
+}
+
+body {
+  background-color: #0099ff;
+}
+
+nav {
+  font-size: 1.5rem;
+}
