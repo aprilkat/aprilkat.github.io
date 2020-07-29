@@ -4,6 +4,13 @@
   Project: Online Bio
 */
 
+/* Universal styles */
+
+body {
+  background-color: #0099ff;
+  font-family: 'Bebas Neue', cursive;
+}
+
 header {
   text-align: center;
   background-color: white;
@@ -13,10 +20,26 @@ header {
   color: black;
 }
 
-body {
-  background-color: #0099ff;
-}
-
 nav {
   font-size: 1.5rem;
+}
+
+footer {
+  color: white;
+  margin-top: 40px;
+}
+
+/* Index page styles */
+.crop-circle {
+  border-radius: 1000px;
+  border: 4px black solid;
+}
+
+.columns {
+  display: flex;
+  margin-top: 40px;
+}
+
+.column-1, .column-3 {
+  background-color: white;
 }
