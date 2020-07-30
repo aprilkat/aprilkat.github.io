@@ -1,0 +1,54 @@
+/*
+  Author:  April Bollinger
+  Date:    07/28/2020
+  Project: Online Bio
+*/
+@media screen and (max-width: 1370px) {
+  .column-1, .column-2, .column-3 {
+    max-width: 50%;
+  }
+
+  .column-3 {
+    margin-top: 20px;
+  }
+
+  .col-1-text {
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .pic-col-1, .pic-col-2 {
+    margin-top: 40px;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .maincontent img {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .column-1, .column-2, .column-3 {
+    max-width: 100%;
+  }
+
+  .column-2 {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .maincontent {
+    width: 100%;
+  }
+
+  .maincontent img {
+    max-width: 100%;
+  }
+
+  .pic-case {
+    width: 100%;
+  }
+}
